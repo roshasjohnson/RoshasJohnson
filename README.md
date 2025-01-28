@@ -46,7 +46,7 @@
 <!-- GitHub Contribution Snake -->
 <h3 align="center">🐍 Coding Streak</h3>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/roshasjohnson/main/assets/github-contribution-snake.svg" />
+  <img src="https://raw.githubusercontent.com/roshasjohnson/roshasjohnson/main/assets/github-contribution-snake.svg" />
 </p>
 <!-- Dynamic Blog Posts -->
 <h3 align="center">📝 Latest Blog Posts</h3>
