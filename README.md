@@ -1,26 +1,15 @@
-name: Update README with Blog Posts
+# Hi there 👋
 
-on:
-  schedule:
-    - cron: '0 */6 * * *'
-  workflow_dispatch:
+## About Me
+I'm a developer who loves building cool things!
 
-jobs:
-  update:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+## GitHub Stats
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=radical)
 
-      - name: Fetch blog posts
-        run: |
-          echo "### Latest Blog Posts" > README.md
-          curl -s https://example.com/rss | grep -E '<title>|link' | sed -e 's/<title>//g' -e 's/<\/title>//g' -e 's/<link>//g' -e 's/<\/link>//g' >> README.md
+## Recent Activity
+<!-- RECENT_ACTIVITY:START -->
+<!-- RECENT_ACTIVITY:END -->
 
-      - name: Commit and push changes
-        run: |
-          git config --global user.name "Your Name"
-          git config --global user.email "your-email@example.com"
-          git add README.md
-          git commit -m "Updated README with latest blog posts"
-          git push
+## My Latest Blog Posts
+<!-- BLOG-POSTS:START -->
+<!-- BLOG-POSTS:END -->
