@@ -1,6 +1,6 @@
 # Hi there 👋
 
-## About Me
+# Roshas Johnson here :)
 I'm a developer who loves building cool things!
 
 ## GitHub Stats
