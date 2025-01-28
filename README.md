@@ -3,9 +3,6 @@
 </div>
 
 <!-- Visitor Counter -->
-<p align="center"> 
-  <img src="https://profile-counter.glitch.me/roshasjohnson/count.svg" />
-</p>
 
 <!-- Animated Typing Text -->
 <!-- <h1 align="center">
